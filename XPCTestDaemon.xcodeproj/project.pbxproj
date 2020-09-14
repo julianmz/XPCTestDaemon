@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A870B245250D8F5A0045AE46 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A870B244250D8F5A0045AE46 /* Main.m */; };
+		A89CF891250EBA5300F7DBB1 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = A89CF890250EBA5300F7DBB1 /* Main.m */; };
+		A89CF8A3250EDAD600F7DBB1 /* RequestProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A89CF8A2250EDAD600F7DBB1 /* RequestProcessor.m */; };
+		A8E6258E250D94AA0086E34C /* ConnectionValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E6258D250D94AA0086E34C /* ConnectionValidator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A870B23F250D8F5A0045AE46 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A89CF88C250EBA5300F7DBB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A870B241250D8F5A0045AE46 /* XPCTestDaemon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XPCTestDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
+		A870B244250D8F5A0045AE46 /* Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		A89CF88E250EBA5300F7DBB1 /* XPCTestClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XPCTestClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		A89CF890250EBA5300F7DBB1 /* Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Main.m; sourceTree = "<group>"; };
+		A89CF89A250EBAFB00F7DBB1 /* XPCTestClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XPCTestClient.entitlements; sourceTree = "<group>"; };
+		A89CF89C250EC17B00F7DBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89CF89D250EC34900F7DBB1 /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		A89CF8A0250ED8B900F7DBB1 /* IRequestProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRequestProcessor.h; sourceTree = "<group>"; };
+		A89CF8A1250EDA5C00F7DBB1 /* RequestProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestProcessor.h; sourceTree = "<group>"; };
+		A89CF8A2250EDAD600F7DBB1 /* RequestProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestProcessor.m; sourceTree = "<group>"; };
+		A8E6258C250D93CD0086E34C /* ConnectionValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionValidator.h; sourceTree = "<group>"; };
+		A8E6258D250D94AA0086E34C /* ConnectionValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionValidator.m; sourceTree = "<group>"; };
+		A8E6258F250D95D40086E34C /* Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		A8E62591250E82720086E34C /* com.jmz.xpctestdaemon.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = com.jmz.xpctestdaemon.plist; sourceTree = "<group>"; };
+		A8E62592250E82A50086E34C /* preinstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = preinstall.sh; sourceTree = "<group>"; };
+		A8E62593250E82BE0086E34C /* postinstall.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinstall.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A870B23E250D8F5A0045AE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89CF88B250EBA5300F7DBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A870B238250D8F5A0045AE46 = {
+			isa = PBXGroup;
+			children = (
+				A870B243250D8F5A0045AE46 /* XPCTestDaemon */,
+				A89CF88F250EBA5300F7DBB1 /* XPCTestClient */,
+				A870B242250D8F5A0045AE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A870B242250D8F5A0045AE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A870B241250D8F5A0045AE46 /* XPCTestDaemon */,
+				A89CF88E250EBA5300F7DBB1 /* XPCTestClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A870B243250D8F5A0045AE46 /* XPCTestDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF89E250ED87F00F7DBB1 /* Interface */,
+				A870B24B250D8FED0045AE46 /* Implementation */,
+				A8E62590250E82450086E34C /* Setup */,
+			);
+			path = XPCTestDaemon;
+			sourceTree = "<group>";
+		};
+		A870B24B250D8FED0045AE46 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				A870B24D250D90030045AE46 /* Header */,
+				A870B24C250D8FFA0045AE46 /* Source */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		A870B24C250D8FFA0045AE46 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A870B244250D8F5A0045AE46 /* Main.m */,
+				A8E6258D250D94AA0086E34C /* ConnectionValidator.m */,
+				A89CF8A2250EDAD600F7DBB1 /* RequestProcessor.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A870B24D250D90030045AE46 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A870B24E250D900A0045AE46 /* XPCTestDaemon */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A870B24E250D900A0045AE46 /* XPCTestDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				A870B24F250D903F0045AE46 /* Private */,
+			);
+			path = XPCTestDaemon;
+			sourceTree = "<group>";
+		};
+		A870B24F250D903F0045AE46 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A8E6258C250D93CD0086E34C /* ConnectionValidator.h */,
+				A8E6258F250D95D40086E34C /* Exception.h */,
+				A89CF8A1250EDA5C00F7DBB1 /* RequestProcessor.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		A89CF88F250EBA5300F7DBB1 /* XPCTestClient */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF89B250EBB1300F7DBB1 /* BuildResources */,
+				A89CF895250EBA6300F7DBB1 /* Implementation */,
+			);
+			path = XPCTestClient;
+			sourceTree = "<group>";
+		};
+		A89CF895250EBA6300F7DBB1 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF896250EBA6C00F7DBB1 /* Header */,
+				A89CF899250EBA8E00F7DBB1 /* Source */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		A89CF896250EBA6C00F7DBB1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF897250EBA7B00F7DBB1 /* XPCTestClient */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		A89CF897250EBA7B00F7DBB1 /* XPCTestClient */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF898250EBA8200F7DBB1 /* Private */,
+			);
+			path = XPCTestClient;
+			sourceTree = "<group>";
+		};
+		A89CF898250EBA8200F7DBB1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF89D250EC34900F7DBB1 /* Exception.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		A89CF899250EBA8E00F7DBB1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF890250EBA5300F7DBB1 /* Main.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A89CF89B250EBB1300F7DBB1 /* BuildResources */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF89A250EBAFB00F7DBB1 /* XPCTestClient.entitlements */,
+				A89CF89C250EC17B00F7DBB1 /* Info.plist */,
+			);
+			path = BuildResources;
+			sourceTree = "<group>";
+		};
+		A89CF89E250ED87F00F7DBB1 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF89F250ED88800F7DBB1 /* XPCTestDaemon */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A89CF89F250ED88800F7DBB1 /* XPCTestDaemon */ = {
+			isa = PBXGroup;
+			children = (
+				A89CF8A0250ED8B900F7DBB1 /* IRequestProcessor.h */,
+			);
+			path = XPCTestDaemon;
+			sourceTree = "<group>";
+		};
+		A8E62590250E82450086E34C /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				A8E62591250E82720086E34C /* com.jmz.xpctestdaemon.plist */,
+				A8E62592250E82A50086E34C /* preinstall.sh */,
+				A8E62593250E82BE0086E34C /* postinstall.sh */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A870B240250D8F5A0045AE46 /* XPCTestDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A870B248250D8F5A0045AE46 /* Build configuration list for PBXNativeTarget "XPCTestDaemon" */;
+			buildPhases = (
+				A870B23D250D8F5A0045AE46 /* Sources */,
+				A870B23E250D8F5A0045AE46 /* Frameworks */,
+				A870B23F250D8F5A0045AE46 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPCTestDaemon;
+			productName = XPCTestDaemon;
+			productReference = A870B241250D8F5A0045AE46 /* XPCTestDaemon */;
+			productType = "com.apple.product-type.tool";
+		};
+		A89CF88D250EBA5300F7DBB1 /* XPCTestClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A89CF894250EBA5300F7DBB1 /* Build configuration list for PBXNativeTarget "XPCTestClient" */;
+			buildPhases = (
+				A89CF88A250EBA5300F7DBB1 /* Sources */,
+				A89CF88B250EBA5300F7DBB1 /* Frameworks */,
+				A89CF88C250EBA5300F7DBB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPCTestClient;
+			productName = XPCTestClient;
+			productReference = A89CF88E250EBA5300F7DBB1 /* XPCTestClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A870B239250D8F5A0045AE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Julian Merz";
+				TargetAttributes = {
+					A870B240250D8F5A0045AE46 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A89CF88D250EBA5300F7DBB1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A870B23C250D8F5A0045AE46 /* Build configuration list for PBXProject "XPCTestDaemon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A870B238250D8F5A0045AE46;
+			productRefGroup = A870B242250D8F5A0045AE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A870B240250D8F5A0045AE46 /* XPCTestDaemon */,
+				A89CF88D250EBA5300F7DBB1 /* XPCTestClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A870B23D250D8F5A0045AE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89CF8A3250EDAD600F7DBB1 /* RequestProcessor.m in Sources */,
+				A8E6258E250D94AA0086E34C /* ConnectionValidator.m in Sources */,
+				A870B245250D8F5A0045AE46 /* Main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89CF88A250EBA5300F7DBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A89CF891250EBA5300F7DBB1 /* Main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A870B246250D8F5A0045AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A870B247250D8F5A0045AE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A870B249250D8F5A0045AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					XPCTestDaemon/Interface,
+					XPCTestDaemon/Implementation/Header,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A870B24A250D8F5A0045AE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					XPCTestDaemon/Interface,
+					XPCTestDaemon/Implementation/Header,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A89CF892250EBA5300F7DBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCTestClient/BuildResources/XPCTestClient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				HEADER_SEARCH_PATHS = (
+					XPCTestClient/Implementation/Header,
+					XPCTestDaemon/Interface,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XPCTestClient/BuildResources/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmz.XPCTestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A89CF893250EBA5300F7DBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XPCTestClient/BuildResources/XPCTestClient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				HEADER_SEARCH_PATHS = (
+					XPCTestClient/Implementation/Header,
+					XPCTestDaemon/Interface,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XPCTestClient/BuildResources/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmz.XPCTestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A870B23C250D8F5A0045AE46 /* Build configuration list for PBXProject "XPCTestDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870B246250D8F5A0045AE46 /* Debug */,
+				A870B247250D8F5A0045AE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A870B248250D8F5A0045AE46 /* Build configuration list for PBXNativeTarget "XPCTestDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870B249250D8F5A0045AE46 /* Debug */,
+				A870B24A250D8F5A0045AE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A89CF894250EBA5300F7DBB1 /* Build configuration list for PBXNativeTarget "XPCTestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89CF892250EBA5300F7DBB1 /* Debug */,
+				A89CF893250EBA5300F7DBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A870B239250D8F5A0045AE46 /* Project object */;
+}
